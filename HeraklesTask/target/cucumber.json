@@ -1,0 +1,247 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-20T17:52:35.875Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7846956500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Write a function taking an array of String as parameter and return an array with the String ordered by length.",
+        "description": "",
+        "id": "mission-1;write-a-function-taking-an-array-of-string-as-parameter-and-return-an-array-with-the-string-ordered-by-length.",
+        "after": [
+          {
+            "result": {
+              "duration": 1314496100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13991600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Sort the following elements according to length of elements",
+            "match": {
+              "location": "step_definitions.Mission_1_StepDefs.sort_the_following_elements_according_to_length_of_elements(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Sidney"
+                ]
+              },
+              {
+                "cells": [
+                  "Berlin"
+                ]
+              },
+              {
+                "cells": [
+                  "Amsterdam"
+                ]
+              },
+              {
+                "cells": [
+                  "Istanbul"
+                ]
+              },
+              {
+                "cells": [
+                  "Florida"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Mission 1",
+    "description": "",
+    "id": "mission-1",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Mission_1.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-20T17:52:45.219Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2626162600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "UI automation task",
+        "description": "",
+        "id": "mission-2;uı-automation-task",
+        "after": [
+          {
+            "result": {
+              "duration": 1149465700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2198019600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to URL",
+            "match": {
+              "location": "step_definitions.Mission_2_StepDefs.navigate_to_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3152104400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Type \"Heracles\" in the search input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Heracles\"",
+                  "offset": 5
+                }
+              ],
+              "location": "step_definitions.Mission_2_StepDefs.type_in_the_search_input_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1460098000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Select \"English\" as the search language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"English\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.Mission_2_StepDefs.selectAsTheSearchLanguage(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3281259500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click the search button",
+            "match": {
+              "location": "step_definitions.Mission_2_StepDefs.click_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62961300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Validate that the first heading of the search results page matches \"Heracles\" (ignoring the case)",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Heracles\"",
+                  "offset": 67
+                }
+              ],
+              "location": "step_definitions.Mission_2_StepDefs.validate_that_the_first_heading_of_the_search_results_page_matches_ignoring_the_case(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13972987200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify that the search results page is available in \"Español\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Español\"",
+                  "offset": 52
+                }
+              ],
+              "location": "step_definitions.Mission_2_StepDefs.verifyThatTheSearchResultsPageIsAvailableIn(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38978700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Validate that the search results page in the new language includes a link to the version in English",
+            "match": {
+              "location": "step_definitions.Mission_2_StepDefs.validate_that_the_search_results_page_in_the_new_language_includes_a_link_to_the_version_in_English()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Mission 2",
+    "description": "",
+    "id": "mission-2",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Mission_2.feature",
+    "tags": []
+  }
+]
