@@ -60,6 +60,3 @@ UI acceptance tests result in a HTML report for each feature in
 HeraklesTask\target\default-html-reports\index.html
 HeraklesTask\target\cucumber-html-reports\overview-failures.html
 In the case of test failures, a screen-shot of the UI at the point of failure is embedded into the report.
-
-API acceptance tests result in a HTML report for each feature in
-SovosChallenge\target\surefire-reports\emailable-report
